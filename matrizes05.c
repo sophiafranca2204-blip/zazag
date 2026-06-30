@@ -96,8 +96,8 @@ int main()
 
     for(i = 0; i < TAM; i++){
         printf("\nAmigo %d\n", i + 1);
-        printf("Nome: %s", nomes[i]);
-        printf("E-mail: %s", email[i]);
+        printf("Nome: %s\n", nomes[i]);
+        printf("E-mail: %s\n", email[i]);
         printf("Idade: %d\n", idade[i]);
         printf("Altura: %.2f\n", altura[i]);
         printf("Peso: %.2f\n", peso[i]);
@@ -106,13 +106,13 @@ int main()
     printf("\n======RESULTADOS======\n");
 
     printf("A media da idade entre os amigos foi de: %.2f\n", mediaIdade);
-    printf("A media de altura entre os amigos foi de:  %.2f\n", mediaAltura);
+    printf("A media de altura entre os amigos foi de: %.2f\n", mediaAltura);
     printf("A media de peso entre os amigos foi de: %.2f\n", mediaPeso);
 
-    printf("O amigo mais velho eh o amigo: %s\n", nomes[maisVelho]);
-    printf("O amigo mais novo eh o amigo: %s\n", nomes[maisNovo]);
-    printf("O amigo mais alto eh o amigo: %s\n", nomes[maisAlto]);
-    printf("O amigo mais pesado eh o amigo: %s\n", nomes[maisPesado]);
+    printf("O amigo mais velho eh: %s\n", nomes[maisVelho]);
+    printf("O amigo mais novo eh: %s\n", nomes[maisNovo]);
+    printf("O amigo mais alto eh: %s\n", nomes[maisAlto]);
+    printf("O amigo mais pesado eh: %s\n", nomes[maisPesado]);
 
     return 0;
 }

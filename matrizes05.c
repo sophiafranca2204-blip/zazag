@@ -92,7 +92,18 @@ int main()
         }
     } 
 
-    printf("Resultados:\n");
+    printf("\n====== DADOS CADASTRADOS ======\n");
+
+    for(i = 0; i < TAM; i++){
+        printf("\nAmigo %d\n", i + 1);
+        printf("Nome: %s", nomes[i]);
+        printf("E-mail: %s", email[i]);
+        printf("Idade: %d\n", idade[i]);
+        printf("Altura: %.2f\n", altura[i]);
+        printf("Peso: %.2f\n", peso[i]);
+    }
+
+    printf("\n======RESULTADOS======\n");
 
     printf("A media da idade entre os amigos foi de: %.2f\n", mediaIdade);
     printf("A media de altura entre os amigos foi de:  %.2f\n", mediaAltura);
